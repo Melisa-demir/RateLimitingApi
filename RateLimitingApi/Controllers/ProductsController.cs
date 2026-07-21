@@ -5,7 +5,7 @@ namespace RateLimitingApi.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    [EnableRateLimiting("fixed")]
+    [EnableRateLimiting("products")]
     public class ProductsController : ControllerBase
     {
         [HttpGet]
